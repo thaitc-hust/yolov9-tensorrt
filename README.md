@@ -53,7 +53,7 @@ python3 add_nms_plugins.py --model weights/<your_output_model_name>.onnx
 ```
 python3 object_detector_trt_nms.py --weight weights/<your_trt_model>.trt --img_test <path_image>
 ```
-- Eg result inference checkpoint yolov9-c.py[] by TensorRT:
+- Eg result inference checkpoint [yolov9-c.pt](https://github.com/WongKinYiu/yolov9/releases/download/v0.1/yolov9-c.pt) by TensorRT:
 
 <img src="images/zidane-result.jpg" width="960">
 <img src="images/bus-result.jpg" width="960">
